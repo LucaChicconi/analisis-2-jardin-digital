@@ -20,4 +20,4 @@ Observaciones:
 		1. Ejemplo 1 : 
 			$\sigma:[0,1]\rightarrow \mathbb{R}²$
 			$\sigma(t) = (t,t)$	
-			[[Figura0Teórica0.png]]
+			![Figura0Teórica0.png](/img/user/Te%C3%B3ricas/Figura0Te%C3%B3rica0.png)
