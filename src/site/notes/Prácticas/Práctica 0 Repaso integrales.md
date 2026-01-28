@@ -108,3 +108,31 @@ $$z = x²+y² , z = 10-x²-2y²$$
 
 (tip para graficar a mano)
 De $z = 10-x²-2y²$ vemos que $z-10 = -(x²+y²)$ entonces sabemos que uno de los paraboloides está hacia abajo y tiene su vértice en $z=10$ y el otro es un paraboloide. 
+
+Entonces para hallar el volumen debemos hacer
+$$V(W)= \iiint_{W}1\,dx\,dy\,dz$$
+Aplicando el cambio de variable nos queda:
+$$\iiint_{x²+y²}^{10-x²-2y²}dz\,dy\,dx$$
+Te desafío a intentar hallar los limites de integración de y (Dibujá como se vería la intersección de las superficies desde arriba osea contemplando sólo los ejes x e y). Vas a ver que lo que queda es extremadamente rancio de integrar. Así que pasemos directamente a **Coordenadas Cilíndricas $(r,\theta,z)$**
+Tenemos: 
+- La ecuación canónica de una elipse : $$\frac{x²}{a²}+\frac{y²}{b²} = 1$$
+- Que $2x²+3y²=10 \implies \frac{x²}{5}+\frac{y²}{\frac{10}{3}}= 1$
+
+Entonces vemos que nuestro $a= \sqrt{5 }$ y $b= \sqrt{ \frac{10}{3} }$
+De esta manera podemos reescribir 
+
+$$x = a*r\cos \theta = \sqrt{ 5 }r \cos \theta$$
+$$y = b*r\sin \theta = \sqrt{ \frac{10}{3} }r\sin \theta$$Es decir 
+$$\mathcal{T}(r,\theta,z)=\left( \sqrt{ 5 }*r\cos \theta,\sqrt{ \frac{10}{3}}*r\sin \theta ,z\right)$$
+con $r \in [0,1]$ y $\theta \in [0,2\pi]$
+
+Entonces, luego de integrar en z con los extremos que teníamos, podemos proceder con la siguiente integral.
+
+Ah , el modulo del Jacoibano CREO que es $\sqrt{ \frac{10}{3} }*r$
+
+$$\iint_{D}{10-x²-2y²-x²-y^2}dA$$
+Y luego del cambio de variables nos queda ésto
+$$\int_{0}¹{\int_{0}^{2\pi}{[(1-r²)*r]dr\,d\theta}}$$
+Lo cual te podes encargar vos de checkear si efectivamente da lo que me dio a mí
+$$\pi*30\sqrt{ \frac{10}{3} }$$
+Al profe le dio otra cosa pero yo ya estaba cansado como para checkear
