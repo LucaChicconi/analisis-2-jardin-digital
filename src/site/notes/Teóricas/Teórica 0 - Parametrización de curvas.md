@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/teoricas/teorica-0-parametrizacion-de-curvas/"}
 ---
 
-# Curva
+### Curva
 Una curva $\mathcal{C} \in \mathbb{R}^n$  es un conjunto que es imagen de una función  $\sigma : [a,b] \rightarrow \mathbb{R}^n$ y cuya  $\mathrm{Im(\sigma)= \mathcal{C}}$
 llamamos a $\sigma$ **parametrización de la curva $\mathcal{C}$**.
 $\mathcal{C}$ es continua y sobreyectiva.
