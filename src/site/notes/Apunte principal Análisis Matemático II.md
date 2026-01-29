@@ -13,7 +13,7 @@ Acá vas a encontrar
  Lo que copie de las clases
  📚 Teóricas
  - [[Teóricas/Teórica 0 - Parametrización de curvas\|Teórica 0 - Parametrización de curvas]]
- - Teórica 1
+ - [[Teóricas/Teórica 1 - Longitud de arco\|Teórica 1 - Longitud de arco]]
 
  📝 Prácticas
 - [[Prácticas/Práctica 0 Repaso integrales\|Práctica 0 Repaso integrales]]
