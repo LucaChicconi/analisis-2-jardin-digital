@@ -25,7 +25,7 @@ Observaciones:
 			$\sigma [0,\frac{1}{5}] \rightarrow \mathbb{R}²$
 			$\sigma(t) = (5t,5t)$
 			$x(t)=5t$ $y(t)=5t$ $x=y$ 
-			![Figura1Teórica0.png](/img/user/Figuras/Figura1Te%C3%B3rica0.png)
+			![Figura0Teórica1.png](/img/user/Figuras/Figura0Te%C3%B3rica1.png)
 		3. Ejemplo 3:
 			$\sigma [1,2] \rightarrow \mathbb{R}²$
 			$\sigma(t) = (t,t²)$
@@ -118,6 +118,8 @@ Observación: Dadas dos parametrizaciones regulares de $\mathcal{C} \implies \si
 
 Final Teórica 1
 [[Apunte principal Análisis Matemático II\|Apunte principal Análisis Matemático II]]
+
+Siguiente teórica: [[Teóricas/Teórica 1 - Longitud de arco\|Teórica 1 - Longitud de arco]]
 
 Práctica vinculada:
 [[]]

@@ -128,7 +128,7 @@ con $r \in [0,1]$ y $\theta \in [0,2\pi]$
 
 Entonces, luego de integrar en z con los extremos que teníamos, podemos proceder con la siguiente integral.
 
-Ah , el modulo del Jacoibano CREO que es $\sqrt{ \frac{10}{3} }*r$
+Ah , el modulo del Jacobiano CREO que es $\sqrt{ \frac{10}{3} }*r$
 
 $$\iint_{D}{10-x²-2y²-x²-y^2}dA$$
 Y luego del cambio de variables nos queda ésto
